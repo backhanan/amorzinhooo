@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para o meu amor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #880e4f;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #e91e63;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meu amor,</h1>
+        <p>Eu amo o seu cuzinho peludo!</p>
+        <img src="c:\Users\Hanan\OneDrive\Desktop\UNIVALI\DOCUMENTOS\Imagem do WhatsApp de 2025-04-03 à(s) 20.16.48_f9dfec37.jpg" alt="Foto da gente" width="300" height="200">
+        <p id="mensagem"></p>
+        <button id="botao-mensagem">Clique aqui</button>
+    </div>
+    <script>
+        document.getElementById('botao-mensagem').addEventListener('click', function() {
+            document.getElementById('mensagem').textContent = "Você é a melhor coisa que já me aconteceu!!!";
+        });
+    </script>
+</body>
+</html>
